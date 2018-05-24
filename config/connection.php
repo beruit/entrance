@@ -1,0 +1,10 @@
+<?php
+define('host','127.0.0.1');
+define('user','root');
+define('pass','');
+define('db','entrance');
+$conn=mysqli_connect(host,user,pass,db);
+if(!$conn){
+    die(mysqli_error($conn));
+}
+?>
